@@ -1,0 +1,27 @@
+.menu, .menu1, .menu2, .menu3 {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    list-style-type: none;
+    background-color: aquamarine;
+    color:black;
+    font: size 2em;
+    padding: 30px 10px;
+}
+
+.menu1{
+
+    background-color: blue;
+    justify-content: space-between;
+}
+.menu2{
+
+    background-color: rgb(255, 0, 0);
+    justify-content: left;
+}
+.menu3{
+
+    background-color: rgb(0, 0, 0);
+    justify-content: right;
+    color: aliceblue;
+}
